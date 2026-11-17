@@ -1,0 +1,18 @@
+{
+  "name": "tesplc-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/server.js",
+  "description": "PLC RO and PSG monitoring dashboard",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.9.0"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.24.6"
+  }
+}
